@@ -28,6 +28,8 @@ Basically, the developer should be able to login to the pc and to carry out task
 
 This is extremely useful and saves time when trying to resize windows.
 
+NB - Alt-Leftclick anywhere in a Window to move it is generally set as the default.
+
 | Distribution | Versions |
 | --- | --- |
 | Debian | 7 |
