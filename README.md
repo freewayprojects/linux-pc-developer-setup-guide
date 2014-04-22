@@ -24,3 +24,15 @@ Basically, the developer should be able to login to the pc and to carry out task
 
 # Tools and configuration
 
+## Get Richt-click/Alt to resize windows
+
+This is extremely useful and saves time when trying to resize windows.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+Open Applications -> System tools -> dconf Editor.
+
+Under org.gnome.desktop.wm.preferences tick resize-with-right-button.
+
