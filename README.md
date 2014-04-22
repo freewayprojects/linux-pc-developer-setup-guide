@@ -38,3 +38,12 @@ Open Applications -> System tools -> dconf Editor.
 
 Under org.gnome.desktop.wm.preferences tick resize-with-right-button.
 
+## Give terminal a dark background
+
+It's much easier on the eyes to have a dark background on terminal sessions.  
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+Open terminal and go to Edit-profiles and edit the default profile - select a dark background.
