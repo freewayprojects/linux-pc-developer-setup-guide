@@ -54,4 +54,5 @@ Open terminal and go to Edit-profiles and edit the default profile - select a da
 | --- | --- |
 | Debian | 7 |
 
-    # apt-get install emacs
+    # apt-get install emacs emacs-goodies-el
+    
