@@ -47,3 +47,11 @@ It's much easier on the eyes to have a dark background on terminal sessions.
 | Debian | 7 |
 
 Open terminal and go to Edit-profiles and edit the default profile - select a dark background.
+
+## Install a developer editor
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install emacs
