@@ -55,4 +55,23 @@ Open terminal and go to Edit-profiles and edit the default profile - select a da
 | Debian | 7 |
 
     # apt-get install emacs emacs-goodies-el
+
+## Install an IDE
+
+An integrated development environment can provide a great deal of functionality to a developer.  This is how to install Netbeans 8.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    $ cd ~
+    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0-php-linux.sh
+    $ chmod 744 netbeans-8.0-php-linux.sh
+    $ su -
+    # apt-get install openjdk-7
+    # exit
+    $ ./netbeans-8.0-php-linux.sh
     
+NB - installing openjdk-7 will make java 7 available for the installer.  Java will be at 1.6 and javac will be att 1.7.  It looks like Netbeans runs on its own version of java once it is installed.    
+
+
