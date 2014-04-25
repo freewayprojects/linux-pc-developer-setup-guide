@@ -96,7 +96,20 @@ to get all java runtimes to use java 1.7.
     
 ## Install an IRC client
 
-    # apt-get install xchat
-    
-    
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
 
+    # apt-get install xchat
+
+## Geting a java applet to run in a browser
+
+This may be useful to access remote consoles etc.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install icedtea-7-plugin
+    
+Then restart the browser.    
