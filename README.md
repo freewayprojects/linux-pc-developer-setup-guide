@@ -94,5 +94,9 @@ And use:
 to get all java runtimes to use java 1.7.    
 
     
+## Install an IRC client
 
+    # apt-get install xchat
+    
+    
 
