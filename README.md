@@ -112,4 +112,15 @@ This may be useful to access remote consoles etc.
 
     # apt-get install icedtea-7-plugin
     
-Then restart the browser.    
+Then restart the browser.
+
+## Add some tools to generate passwords
+
+Always useful to quickly generate decent passwords.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install gpw pwgen
+
