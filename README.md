@@ -54,8 +54,8 @@ Open terminal and go to Edit-profiles and edit the default profile - select a da
 | --- | --- |
 | Debian | 7 |
 
-    # apt-get install emacs emacs-goodies-el
-
+    # apt-get install emacs emacs-goodies-el php-elisp
+ 
 ## Install an IDE
 
 An integrated development environment can provide a great deal of functionality to a developer.  This is how to install Netbeans 8.
