@@ -124,3 +124,14 @@ Always useful to quickly generate decent passwords.
 
     # apt-get install gpw pwgen
 
+## Graphical diffing tool
+
+Always useful - the ability to visually see the differences between files and code shippets.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install meld
+    
+    
