@@ -134,4 +134,14 @@ Always useful - the ability to visually see the differences between files and co
 
     # apt-get install meld
     
+## Graphical hexeditor
+
+Always useful - the ability to open files in a simple hex editor.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install hexedit
+    
     
