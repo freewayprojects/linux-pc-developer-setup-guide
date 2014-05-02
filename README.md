@@ -142,6 +142,6 @@ Always useful - the ability to open files in a simple hex editor.
 | --- | --- |
 | Debian | 7 |
 
-    # apt-get install hexedit
+    # apt-get install hexedit ghex
     
     
