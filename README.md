@@ -144,4 +144,13 @@ Always useful - the ability to open files in a simple hex editor.
 
     # apt-get install hexedit ghex
     
-    
+## Graphical git viewer
+
+It's very helpful to be able to see a visualisation of local git trees.  Gitg is a nice simple git repository viewer - but others are available.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install gitg
+        
