@@ -123,7 +123,40 @@ And use:
     
 to get all java runtimes to use java 1.7.    
 
+| Distribution | Versions |
+| --- | --- |
+| Ubuntu | 12.04 |
+
+    $ cd ~
+    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0-php-linux.sh
+    $ chmod 744 netbeans-8.0-php-linux.sh
+    $ sudo su -
+    # apt-get install openjdk-7-jdk
+    # update-java-alternatives -s java-1.7.0-openjdk-amd64
+    # exit
+    $ ./netbeans-8.0-php-linux.sh
     
+NB - installing openjdk-7 will make java 7 available for the installer.  Java will be at 1.6 and javac will be att 1.7.  It looks like Netbeans runs on its own version of java once it is installed.
+
+Use
+
+    # update-java-alternatives -l
+    
+to see the java runtimes available.
+
+And use:
+
+    # java -version
+    # javac -version
+    
+to see which are the current default versions.
+
+And use:
+
+    # update-java-alternatives -s java-1.7.0-openjdk-amd64
+    
+to get all java runtimes to use java 1.7.    
+
 ## Install an IRC client
 
 | Distribution | Versions |
