@@ -24,7 +24,7 @@ Basically, the developer should be able to login to the pc and to carry out task
 
 # Tools and configuration
 
-## Get Richt-click/Alt to resize windows
+## Get Right-click/Alt to resize windows
 
 This is extremely useful and saves time when trying to resize windows.
 
@@ -48,11 +48,9 @@ Open Applications -> System tools -> dconf Editor.
 
 Under org.gnome.desktop.wm.preferences tick resize-with-right-button.
 
-## Get Richt-click/Alt to resize windows
+## Get live window resizing
 
-This is extremely useful and saves time when trying to resize windows.
-
-NB - Alt-Leftclick anywhere in a Window to move it is generally set as the default.
+This resizes the contents of a window as the window is being resized.
 
 | Distribution | Versions |
 | --- | --- |
