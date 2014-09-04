@@ -38,6 +38,38 @@ Open Applications -> System tools -> dconf Editor.
 
 Under org.gnome.desktop.wm.preferences tick resize-with-right-button.
 
+| Distribution | Versions |
+| --- | --- |
+| Ubuntu | 12.04 |
+
+Install dconf-editor.
+
+Open Applications -> System tools -> dconf Editor.
+
+Under org.gnome.desktop.wm.preferences tick resize-with-right-button.
+
+## Get Richt-click/Alt to resize windows
+
+This is extremely useful and saves time when trying to resize windows.
+
+NB - Alt-Leftclick anywhere in a Window to move it is generally set as the default.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+Default behaviour.
+
+| Distribution | Versions |
+| --- | --- |
+| Ubuntu | 12.04 |
+
+Install compizconfig-settings-manager.
+
+Find the Resize Window plugin; it's under Window Management. Open it and go to the General tab. The top setting is Default Resize Mode.
+
+Normal resizes the windows content on-the-fly.
+
 ## Give terminal a dark background
 
 It's much easier on the eyes to have a dark background on terminal sessions.  
