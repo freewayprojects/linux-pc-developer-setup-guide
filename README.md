@@ -217,3 +217,29 @@ It's very helpful to be able to see a visualisation of local git trees.  Gitg is
 
     # apt-get install gitg
         
+## Midnight commander
+
+Useful file management tool.
+
+| Distribution | Versions |
+| --- | --- |
+| Debian | 7 |
+
+    # apt-get install mc
+
+| Distribution | Versions |
+| --- | --- |
+| Ubuntu | 12.04 |
+
+    # apt-get install mc
+
+It is useful to turn off the keyboard shortcuts.  However, on Ubuntu 12.04 pressing F10 will bring up the context (right-click) menu.  To turn this off create a new file: ~/.config/gtk-3.0/gtk.css and add the following
+
+    @binding-set NoKeyboardNavigation {
+     unbind "<shift>F10"
+    }
+
+    * {
+     gtk-key-bindings: NoKeyboardNavigation
+    }
+
