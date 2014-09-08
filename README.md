@@ -90,6 +90,8 @@ Open terminal and go to Edit-profiles and edit the default profile - select a da
 
 An integrated development environment can provide a great deal of functionality to a developer.  This is how to install Netbeans 8.
 
+After installing Netbeans Drupal specific code formatting can be implemented by: https://www.drupal.org/node/1019816
+
 | Distribution | Versions |
 | --- | --- |
 | Debian | 7 |
