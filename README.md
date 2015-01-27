@@ -251,3 +251,4 @@ It is useful to turn off the keyboard shortcuts.  However, on Ubuntu 12.04 press
      gtk-key-bindings: NoKeyboardNavigation
     }
 
+NB - Maybe on newer versions of Ubuntu - or just on Lubuntu - there is a setting under the 'Avanced' tab of the terminal settings which works well.
