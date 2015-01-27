@@ -97,12 +97,12 @@ After installing Netbeans Drupal specific code formatting can be implemented by:
 | Debian | 7 |
 
     $ cd ~
-    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0-php-linux.sh
-    $ chmod 744 netbeans-8.0-php-linux.sh
+    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0.2-php-linux.sh
+    $ chmod 744 netbeans-8.0.2-php-linux.sh
     $ su -
     # apt-get install openjdk-7
     # exit
-    $ ./netbeans-8.0-php-linux.sh
+    $ ./netbeans-8.0.2-php-linux.sh
     
 NB - installing openjdk-7 will make java 7 available for the installer.  Java will be at 1.6 and javac will be att 1.7.  It looks like Netbeans runs on its own version of java once it is installed.
 
@@ -129,14 +129,20 @@ to get all java runtimes to use java 1.7.
 | --- | --- |
 | Ubuntu | 12.04 |
 
+NB - Before installing Netbeans it may be best to install icetea to prevent an error when running the line update-java-alternatives.
+
+    # apt-get install icedtea-7-plugin
+
+Then install Netbens with:
+
     $ cd ~
-    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0-php-linux.sh
-    $ chmod 744 netbeans-8.0-php-linux.sh
+    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0.2-php-linux.sh
+    $ chmod 744 netbeans-8.0.2-php-linux.sh
     $ sudo su -
     # apt-get install openjdk-7-jdk
     # update-java-alternatives -s java-1.7.0-openjdk-amd64
     # exit
-    $ ./netbeans-8.0-php-linux.sh
+    $ ./netbeans-8.0.2-php-linux.sh
     
 NB - installing openjdk-7 will make java 7 available for the installer.  Java will be at 1.6 and javac will be att 1.7.  It looks like Netbeans runs on its own version of java once it is installed.
 
