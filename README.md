@@ -97,7 +97,7 @@ After installing Netbeans Drupal specific code formatting can be implemented by:
 | Debian | 7 |
 
     $ cd ~
-    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0.2-php-linux.sh
+    $ wget http://download.netbeans.org/netbeans/8.0.2/final/bundles/netbeans-8.0.2-php-linux.sh
     $ chmod 744 netbeans-8.0.2-php-linux.sh
     $ su -
     # apt-get install openjdk-7
