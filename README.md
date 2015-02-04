@@ -165,6 +165,18 @@ And use:
     
 to get all java runtimes to use java 1.7.    
 
+| Distribution | Versions |
+| --- | --- |
+| Ubuntu | 14.04 |
+
+Then install Netbens with:
+
+    $ cd ~
+    $ wget http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0.2-php-linux.sh
+    $ chmod 744 netbeans-8.0.2-php-linux.sh
+    $ ./netbeans-8.0.2-php-linux.sh
+    
+
 ## Install an IRC client
 
 | Distribution | Versions |
