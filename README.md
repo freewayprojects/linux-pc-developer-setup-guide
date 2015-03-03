@@ -11,6 +11,10 @@ Each tool or configuration is described first in generic detail - and then more 
 
 Please send through any patches etc to improve/correct the document - especially how to make the changes for different distributions.
 
+# Linux distro recommendation
+
+There are many Linux distributions available and each have their strengths and weaknesses.  If no Linux distribution has been selected then the recommendation here is to use the Lubuntu distribution.  This actually installs Ubuntu but sets it up with a lightweight window manager (LXDE) and chooses by default light versions of the main applications.  This means that the distro works well on a wid variety of PC's including some lower spec machines.  And, if needed, any other Ubuntu applications can be installed after Lubuntu is set up because Lubuntu connects the package manager directly to the Ubuntu package repositories.
+
 # Prerequisites
 
 The initial Linux PC installation should have been completed.  This could be any distribution or version of Linux - this guide is intended to be generic as well as having distribution/version specific code snippets.
